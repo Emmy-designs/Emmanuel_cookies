@@ -1,0 +1,7 @@
+ul{
+    list-style: none;
+}
+li.hello{
+    display: inline-block;
+    margin-left: 20px;
+}

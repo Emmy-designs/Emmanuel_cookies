@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(40, 44, 72);
+    color: black;
+    color: hsl(0%, 30%, 43%);
+}
+header{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+    text-decoration: blink;
+    line-height: 35px;
+    word-spacing: 5px;
+    text-shadow: 2px,2px,4px,white;
+    
+}
+
+.om{
+    font-size:x-large;
+    font-family:cursive;
+    background-color: rgba(255, 255, 255, 0.925);
+   height: 180px;
+   overflow: scroll;
+}
+.About{
+    border: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-style: oblique;
+}
+#Emma{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+#hi{
+    border-radius: 100px;
+    width: 350px;
+    height:300px;   
+}
+a:link{
+    color: rgba(15, 248, 248, 0.459);
+}
+a:visited{
+    color:rgb(9, 218, 89);
+}
+a:hover{
+    color: rgba(248, 3, 23, 0.534);
+}
+a:active{
+    color: rgb(228, 243, 13);
+}
+a{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.submit:focus{
+    color: rgb(75, 43, 43);
+    background-color: aqua;
+}
+.submit:hover{
+   background-color: rgb(30, 123, 210);
+   color: blanchedalmond;
+}
+input.submit:active{
+    background-color: rgb(24, 7, 85);
+    color: white;
+}
+#hi:hover{
+    border:5px solid rgb(14, 59, 206);
+}
+.card{
+    text-align: center;
+}
+.Personal_info{
+    width: 350px;
+    display:inline-block;
+    margin: 50px 100px 50px auto ;
+    padding: 30px;
+    background-color: rgb(53, 62, 126);
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: -10px -10px 10px 0px #777777;
+}
+
+.flb{
+    text-align: left;
+     width: 380px;
+    display:inline-block;
+    margin:50px auto 50px 100px;
+    padding: 30px;
+    background-color: rgb(53, 62, 126);
+    border-radius: 10px 12px 35px 10px;
+    box-shadow: -10px -10px 10px 0px #777777;
+    border-top-left-radius: 15px 15px;
+}
+.submit{
+    padding: 7px 15px;
+    border-radius: 15px;
+    background-color: rgb(13, 48, 245);
+    display: inline;
+}
+.bu{
+    display: inline;
+    margin: 40px;
+}
