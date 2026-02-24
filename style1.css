@@ -29,13 +29,27 @@ header{
     font-size: 26px;
     font-style: oblique;
 }
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;   /* THIS makes it responsive */
+
+}
+.image-container img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 100px;
+    transition: 0.3s ease;
+
+}
+.image-container img:hover {
+    transform: scale(1.05);  /* Makes image slightly bigger */
+   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    border: 6px solid #007bff
+}
 #Emma{
     font-family:Georgia, Times, 'Times New Roman', serif;
-}
-#hi{
-    border-radius: 100px;
-    width: 350px;
-    height:300px;   
 }
 a:link{
     color: rgba(15, 248, 248, 0.459);
@@ -65,26 +79,15 @@ input.submit:active{
     background-color: rgb(24, 7, 85);
     color: white;
 }
-#hi:hover{
-    border:5px solid rgb(14, 59, 206);
-}
 .card{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-.Personal_info{
-    width: 350px;
-    display:inline-block;
-    margin: 50px 100px 50px auto ;
-    padding: 30px;
-    background-color: rgb(53, 62, 126);
-    border-radius: 100px;
-    text-align: center;
-    box-shadow: -10px -10px 10px 0px #777777;
-}
-
-.flb{
-    text-align: left;
-     width: 380px;
+.flb, .Personal_info{
+    max-width: 100%;
+     width: 350px;
     display:inline-block;
     margin:50px auto 50px 100px;
     padding: 30px;
@@ -94,12 +97,19 @@ input.submit:active{
     border-top-left-radius: 15px 15px;
 }
 .submit{
-    padding: 7px 15px;
-    border-radius: 15px;
-    background-color: rgb(13, 48, 245);
-    display: inline;
+   padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    min-width: 120px;
 }
 .bu{
-    display: inline;
+    display:flex;
+    justify-content: center;
+     gap: 20px;
+    flex-wrap: wrap;   /* important for mobile */
+    margin-top: 20px;
     margin: 40px;
+
 }
