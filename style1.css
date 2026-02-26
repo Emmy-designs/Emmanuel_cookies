@@ -101,7 +101,7 @@ a{
    color: blanchedalmond;
 }
 input.submit:active{
-    background-color: rgb(24, 7, 85);
+    background-color: rgb(29, 228, 10);
     color: white;
 }
 .card{
@@ -114,9 +114,9 @@ input.submit:active{
     max-width: 100%;
      width: 350px;
     display:inline-block;
-    margin:50px auto 50px auto;
+    margin:50px auto auto auto;
     padding: 30px;
-    background-color: rgb(53, 62, 126);
+    background-color:rgba(236, 232, 232, 0.842);
     border-radius:50px;
     box-shadow: 7px 7px 5px 0px #7e6e6e;
     border-top-left-radius: 50px;
@@ -130,6 +130,7 @@ input.submit:active{
     cursor: pointer;
     min-width: 120px;
     max-height: 25%;
+    background-color: #7e6e6e;
 }
 .bu{
     display:flex;
@@ -139,4 +140,34 @@ input.submit:active{
     margin-top: 20px;
     margin: 40px;
 
+}
+.core{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 30px auto 30px auto;
+}
+.coreI , .coreII{
+ max-width: 100%;
+     width: 350px;
+    display:inline-block;
+    margin:auto auto auto auto;
+    padding: 30px;
+    background-color:rgba(236, 232, 232, 0.842);
+    border-radius:50px;
+    box-shadow: -7px 7px 5px 0px #7e6e6e;
+    border-top-left-radius: 50px;
+    text-align: center;
+}
+.video{
+    display: inline;
+    margin: 10px auto 10px auto;
+    font-size: xx-large;
+    gap: 70px;
+}
+.vid~p{
+    border-radius: 10px;
+    justify-content: center;
+    display: inline;
 }
