@@ -1,21 +1,46 @@
+:root{
+    --bg:rgba(231, 231, 245, 0.548);
+    --mar:20px 200px 20px auto;
+    --head:black;
+}
 body{
-    background-color: rgb(40, 44, 72);
+    background-color:var(--bg);
     color: black;
     color: hsl(0%, 30%, 43%);
 }
-header{
-    color:white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 0px;
-    text-decoration: blink;
-    line-height: 35px;
-    word-spacing: 5px;
-    text-shadow: 2px,2px,4px,white;
-    
+.top{
+     display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-
+.head {
+     max-width: 100%;
+    display:inline;
+    margin:50px auto 50px auto;
+    padding: 30px;
+    border-radius:50px;
+    box-shadow: 7px 7px 5px 0px #7e6e6e;
+    border-top-left-radius: 50px;
+    text-align: center;
+}
+.top img{
+    width: 500px;   
+    border-radius: 400px;
+}
+.search{
+    width: 35%;
+    height: auto;
+    margin:10px;
+    border-radius: 50px;
+    padding: 15px;
+}
+.sea{
+    width: 80px;
+    height: auto;
+    border-radius: 100px;
+    padding: 4px;
+}
 .om{
     font-size:x-large;
     font-family:cursive;
@@ -89,12 +114,13 @@ input.submit:active{
     max-width: 100%;
      width: 350px;
     display:inline-block;
-    margin:50px auto 50px 100px;
+    margin:50px auto 50px auto;
     padding: 30px;
     background-color: rgb(53, 62, 126);
-    border-radius: 10px 12px 35px 10px;
-    box-shadow: -10px -10px 10px 0px #777777;
-    border-top-left-radius: 15px 15px;
+    border-radius:50px;
+    box-shadow: 7px 7px 5px 0px #7e6e6e;
+    border-top-left-radius: 50px;
+    text-align: center;
 }
 .submit{
    padding: 10px 25px;
@@ -103,6 +129,7 @@ input.submit:active{
     border: none;
     cursor: pointer;
     min-width: 120px;
+    max-height: 25%;
 }
 .bu{
     display:flex;
