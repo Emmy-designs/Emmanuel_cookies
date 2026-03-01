@@ -1,5 +1,62 @@
+:root{
+    --main:rgba(255, 255, 255, 0.637);
+    --bg:rgb(231, 207, 207);
+    --hove:rgb(145, 202, 145);
+}
+.head{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.home , h1{
+    padding: 10px;
+    margin: auto 50px auto 50px;
+    border-radius: 45px;
+     transition: 3s ease
+}
+.home:hover{
+    background:var(--hove);
+    box-shadow: 0px 5px 10px black;
+    transform: scale(1.05); 
+}
+
+p{
+    font-size: x-large;
+    text-align: center;
+    text-shadow: 4px black;
+    font-family: 'Lucida Sans';
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    background: var(--main);
+    
+}
+.first, .second{
+    background-color: rgb(231, 215, 215);
+    border-radius: 40px;
+    margin: 10px auto 10px auto;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 4px 5px 3px 0px black;
+}
+
 ul{
-    list-style: none;
+    list-style: circle;
+    list-style-position: inside;
+}
+.ut{
+    border-radius: 50px;
+    width:500px;
+    height:250px; 
+    transition: 0.3s ease;
+}
+.ut:hover{
+    border: 5px orange;
+      transform: scale(1.05);  /* Makes image slightly bigger */
+   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 li.hello{
     display: inline-block;

@@ -95,10 +95,35 @@ a:active{
 a{
     font-weight: bold;
     text-transform: uppercase;
+    cursor: move;
+}
+input { 
+font-size: 100%; 
+color: #0e0d0d; 
+background-color: #f2f2f2; 
+border: 1px solid #bdbdbd; 
+border-radius: 5px; 
+padding: 5px 5px 5px 30px; 
+background-repeat: no-repeat; 
+background-position: 8px 9px; 
+display:inline; 
+} 
+input:focus {
+background-color: #7813ec; 
+border: 1px solid #050505;
+} 
+input#email { 
+background-image: url("images/email.png");
+} 
+input#twitter { 
+background-image: url("images/twitter.png");
+} 
+input#web {
+background-image: url("images/web.png");
 }
 .submit:focus{
     color: rgb(75, 43, 43);
-    background-color: aqua;
+    background-color: rgb(212, 0, 255);
 }
 .submit:hover{
    background-color: rgb(30, 123, 210);
@@ -175,3 +200,16 @@ input.submit:active{
     justify-content: center;
     display: inline;
 }
+fieldset {
+width: 350px;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 20px;
+text-align: right;}
+legend {
+background-color: #efefef;
+border: 1px solid #dcdcdc;
+border-radius: 10px;
+padding: 10px 20px;
+text-align: left;
+text-transform: uppercase;}
