@@ -2,3 +2,6 @@ img{
     border-radius: 75%;
     border: 10px solid color(srgb red green blue);
 }
+li{
+    line-height: 30px;
+}
