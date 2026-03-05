@@ -76,13 +76,13 @@ header{
     width: 300px;
     max-width: 100%;
     border-radius: 100px;
-    transition: 0.3s ease;
     filter: drop-shadow(1px 1px 20px rgb(17, 17, 17))
 
 }
 .image-container img:hover {
-    transform: scale(1.05);  /* Makes image slightly bigger */
-   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    transform: rotateY(360deg);  /* Makes image slightly bigger */
+      transition: 3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     border: 6px solid #007bff
 }
 #Emma{
