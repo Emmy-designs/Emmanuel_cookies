@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The car dealers....</title>
+    <style>
+        body {
+            margin: 0;
+            transition: background 1s ease;
+            font-family: Arial, sans-serif;
+        }
+
+        .but{
+            padding: 15px 35px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            background-color: red;
+            text-align: center;
+
+        }
+
+        .nine {
+            width: 300px;
+            padding: 30px;
+            margin: 10px auto 10 px auto;
+        }
+
+        .Product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+            justify-content: center;
+            margin: auto 10px auto 10px;
+        }
+
+        .product {
+            text-align: center;
+        }
+
+        .product:hover {
+            transition: 0.8s ease;
+            transform: scale(1.02);
+        }
+
+        .product p {
+            font-weight: 600;
+        }
+
+        .product img {
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px 2px rgba(6, 30, 247, 0.384);
+            filter: drop-shadow(1px 3px 20px rgba(3, 255, 213, 0.986));
+        }
+
+        .search {
+            padding: 5px;
+            border-radius: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>THE CAR DEALERS</h1>
+    <div>
+        <input type="search" class="search">
+        <button class="search">Search</button>
+         <button onclick="changeColor()" class="but">Change Background</button>
+    </div>
+    <br>
+    <div class="Product-list">
+        <div class="product">
+            <img width="300px" src="Images2/car1.jpeg" alt="product">
+            <p>Hyena 350Auto 4.0</p>
+            <span>$10000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car2.jpg" alt="product">
+            <p>Ferarri 215 3.0</p>
+            <span>$40000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car3.jpg" alt="product">
+            <p>Fast X 4.6</p>
+            <span>$15000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car4.jpg" alt="product">
+            <p>BMW 160</p>
+            <span>$65000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car5.jpg" alt="product">
+            <p>Lexus 450 Auto</p>
+            <span>$25000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/Car I.jpg" alt="product">
+            <p>Motor Gp 4.0</p>
+            <span>$30000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car8.jpeg" alt="product">
+            <p>Sporting race 4.5</p>
+            <span>$28000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car6.jpg" alt="product">
+            <p>Formula 1</p>
+            <span>$32000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car7.jpg" alt="product">
+            <p>Motorcycle TVZ 4.0</p>
+            <span>$3000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car9.jpg" alt="product">
+            <p>MotorGP 5.0</p>
+            <span>$4000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car10.jpg" alt="product">
+            <p>BMW 590</p>
+            <span>$32000</span>
+        </div>
+
+        <div class="product">
+            <img width="300px" src="Images2/car11.jpg" alt="product">
+            <p>Sport CARS 3.5</p>
+            <span>$13000</span>
+        </div>
+    </div>
+    
+
+
+    <script>
+       function changeColor() {
+            const color = `rgb(
+                ${Math.floor(Math.random() * 252)},
+                ${Math.floor(Math.random() * 256)},
+                ${Math.floor(Math.random() * 256)}
+            )`;
+            document.body.style.background = color;
+        
+        }
+    </script>
+</body>
+
+</html>

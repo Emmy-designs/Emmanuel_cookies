@@ -1,66 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Peace And Progress</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace And Progress</title>
+    <style>
+        header{
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            border-radius: 1em;
+            justify-content: center;
+        }
+        header video{
+            grid-row: 1/2;
+            grid-column: 1/2;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.5;
+        }
+        header .content{
+             grid-row: 1/2;
+            grid-column: 1/2;
+            z-index: 1;
+            grid-area: stack;
+            color: black; 
+            background-color: rgba(55, 51, 58, 0.363);
+            font-size: 2rem;
+            border-radius: inherit;
+        }
+        .cta-button{
+            padding: 2em;
+            border-radius: 1em;
+            background-color: rgba(76, 0, 130, 0.575);
+        }
 
-<style>
-    body{
-        font-family: Georgia, serif;
-        margin: 40px;
-    }
-
-    h1{
-        margin-bottom: 20px;
-    }
-
-    /* Container for paragraph and blockquote */
-    .content{
-        display: flex;
-        gap: 40px;
-        align-items: flex-start;
-    }
-
-    .text{
-        flex: 3;
-    }
-
-    blockquote{
-        flex: 1;
-        border-top: 2px solid brown;
-        border-bottom: 2px solid brown;
-        padding: 16px;
-        font-style: italic;
-        background-color: #f9f9f9;
-    }
-    p{
-        margin-bottom: 20px;
-        line-height: 1.6;
-    }
-</style>
+    </style>
 </head>
 
 <body>
-
-<h1>Peace And Progress</h1>
-
-<div class="content">
-    <div class="text">
-        <p>
-        In 1817 Baron von Drais invented a walking machine that would help him get around the royal gardens faster: two same-size in-line wheels, the front one steerable, mounted in a frame...
-        </p>
-
-        <p>
-        Power makes money available. Engineering is very crucial. As much as I love typing, I also love praying and seeking the face of the One I call darling.
-        </p>
-		<p>
-    I don’t plan on paying much money, but I do plan on killing pride and sin in me. I love you Holy Ghost. I know you are seeing this. Your boy is panting for you. Please reveal yourself to me more.
-</p>
-    </div>
-    <blockquote>
-        "I am powerful, and in power I make progress in life. And when I do, most people don't see it at times, which is why I invite the Holy Spirit into all areas of my life."
-    </blockquote>
-</div>
+    <header>
+        <video autoplay loop muted playsinline style="grid-area: stack;">
+            <source src="Videos/cook like me.mp4">
+        </video>
+        <div class="content" style="grid-area: stack;">
+            <h1>Hello world</h1>
+            <p>There is no environment without its hazards. Even in our homes there are hazards.
+                There are hazards that are unseen, be conscious of your environment. Majority of Nigerians see seat belt
+                as a burden.
+                Wood is gotten from tree. Majorly we get timber wood from reserved forest. It is not just any standing
+                tree that is used for timber, look at the trunk , the straightness of the trunk apart from looking at
+                the durability, even the resistivity after that you’ll be looking at it if it will be a able to serve a
+                particular purpose.
+                Wood is usually gotten from the trees and the trees are from the reserved forest.
+            </p>
+            <button class="cta-button">
+                Click me
+            </button>
+        </div>
+    </header>
 </body>
+
 </html>
